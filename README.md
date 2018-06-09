@@ -10,13 +10,19 @@ I wanted a docker-run jenkins that could itself build docker images, including i
 
 ### How?
 Clone this repo:
-    git clone https://github.com/joeljbaker/jenkins.git
+```
+git clone https://github.com/joeljbaker/jenkins.git
+```
 
 Build the docker image:
-    ./build.sh 
-    
+```
+./build.sh 
+```    
+
 Run the docker image:
-    ./run-jenkins.sh 
-    
+```
+./run-jenkins.sh 
+```
+
 Goto Jenkins at http://localhost:8080/
 
