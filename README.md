@@ -7,3 +7,16 @@ Get it?
 
 ### Why?
 I wanted a docker-run jenkins that could itself build docker images, including itself.
+
+### How?
+Clone this repo:
+    git clone https://github.com/joeljbaker/jenkins.git
+
+Build the docker image:
+    ./build.sh 
+    
+Run the docker image:
+    ./run-jenkins.sh 
+    
+Goto Jenkins at http://localhost:8080/
+
